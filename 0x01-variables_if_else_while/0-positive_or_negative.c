@@ -13,7 +13,7 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 printf("%d is a positive\n", n);
 else if (n == 0)
-("%d is a positive\n", n);
+printf("%d is a positive\n", n);
 else
 printf("%d is a positive\n", n);
 return (0);
