@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (su`ccess)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -15,3 +15,4 @@ i++;
 putchar('\n');
 return (0);
 }
+
