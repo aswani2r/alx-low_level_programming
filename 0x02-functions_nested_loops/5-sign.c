@@ -11,17 +11,17 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-printf("+%d\n", n); /* print + and n */
+printf("+%d\n", n);
 return (1);
 }
 else if (n == 0)
 {
-printf("0%d\n", n); /* print 0 and n */
+printf("0%d\n", n);
 return (0);
 }
 else
 {
-printf("-%d\n", n); /* print - and n */
+printf("-%d\n", n);
 return (-1);
 }
 }
