@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints the number from 1 to 100, followed by new line
- * but for multiples of three prints fizz instead
- * and for multiples of five prints buzz instead
- * Return always: 0 (success)
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 void fizzBuzz() {
     int i;
