@@ -1,17 +1,23 @@
 #include "main.h"
+
 /**
- * print_last_digit  - prints the last digit of  a number
- * @n: The number to be treated
- * Return: Value of the last digit of number
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
+ * Return: value of the last digit
  */
-int print_last_digit(int number) {
-int last_digit = number % 10;
-std::cout << "Last digit: " << last_digit << std::endl;
-return last_digit;
-}
-int main() {
-int number = 12345;
-int last_digit = print_last_digit(number);
-std::cout << "Returned last digit: " << last_digit << std::endl;
-return 0;
+int print_last_digit(int n)
+{
+	int a;
+
+	if (n < 0)
+	n = -n;
+
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
