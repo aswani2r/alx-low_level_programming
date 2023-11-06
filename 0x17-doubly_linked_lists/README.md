@@ -1,1 +1,1 @@
-0x17. C - Doubly linked list project
+This is a C - Doubly linked lists assignment by Alx

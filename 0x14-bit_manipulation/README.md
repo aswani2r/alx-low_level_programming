@@ -1,1 +1,1 @@
-this is a 0x14. C - Bit manipulation project as required by ALX
+This is a C - Bit manipulation assignment by ALX
